@@ -1,3 +1,5 @@
+/* Elementos */
+
 :root {
     font-size: 10px;
     --biggest-gap: calc(5rem + 5vw);
@@ -83,9 +85,13 @@ nav div h1 {
     margin: 0;
 }
 
+/* Variáveis */
+
 .blue-space {
     color: #0000ff;
 }
+
+/* Header */
 
 #img-logo {
     display: flex;
@@ -158,6 +164,8 @@ nav div h1 {
     margin: 0;
 }
 
+/* ARTIGOS */
+
 #Artigos {
     padding: 2% 0 4%;
 }
@@ -226,6 +234,8 @@ div.autor img {
     gap: 1em;
 }
 
+/* FORMULÁRIO */
+
 #Formulario, .footer-container {
     font-family: 'JetBrains Mono', monospace;
     max-width: 1200px;
@@ -273,6 +283,8 @@ input {
     transition: all 200ms ease-in-out;
     transform: scale(0.95);
 }
+
+/* FOOTER */
 
 footer {
     background-color: #0A1E32;
